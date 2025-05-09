@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Booking</title>
+    </head>
+    <body>
+        <h1 id="heading">Movie Booking</h1>
+        <div class="container">
+            <div class="row">Total Booked: <span id ="bookingCount"></span>
+            </div>
+            <div class="row">
+                <label for="inp1">Find seat: </label>
+                <input type="text" id ="inp1" name = "inp1">
+            </div>
+        </div>
+        <form onsubmit="handleFormSubmit(event)" class="container2">
+             <label for="username">Username</label>
+             <input type="text" id="username" name="username">
+             <label for="seatnumber">Seat number</label>
+             <input type="number" name="seatnumber" id = "seatnumber">
+             <button type="submit" id="submit">ADD</button>
+        </form>
+        <ul></ul>
+    </body>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"></script>
+    </html>
