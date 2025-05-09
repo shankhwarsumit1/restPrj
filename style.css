@@ -1,1 +1,119 @@
 
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+    gap:10px;
+    background-color: rgb(233, 233, 233);
+    padding: 40px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#head{
+    background-color: rgb(141, 210, 96);
+    padding: 15px;
+    width: 300px;
+    border: 2px solid rgb(214, 101, 101);
+    align-self: center;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row1{
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(108, 157, 142);
+    align-self: center;
+    width: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.row2{
+    margin: 20px;
+    background-color: aqua;
+    width: auto;
+    padding:10px;
+    align-self: center;
+    border:1.5px solid red;
+    border-radius: 2px;
+    transform: scale(1.2);
+}
+
+form{
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+}
+
+.us{
+background-color: chocolate;
+width: auto;
+padding: 10px 30px 10px 10px;
+border: 2px solid black;  
+border-radius: 5px;
+margin-right: 10px;
+}
+
+.sm{
+    background-color: rgb(30, 117, 46);
+    width: auto;
+    padding: 10px 30px 10px 10px;
+    border: 2px solid black;
+    margin-right: 10px;  
+    border-radius: 5px;
+    }
+
+    #submit{
+        background-color: yellow;
+        width: auto;
+        padding: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    ul{
+        background-color: cornflowerblue;
+        padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin: 10px auto;
+    width: 600px;
+    flex-direction: column;
+    list-style: none;
+    }
+
+    .btn1{
+        background-color: rgb(233, 139, 139);
+    
+        width: auto;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    .btn2{
+        background-color: rgb(147, 231, 147);
+        width: auto;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    .li{
+        background-color: aquamarine;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
